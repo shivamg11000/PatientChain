@@ -1,20 +1,21 @@
 body{
     margin: 0;
+    background-color: #f3efcb;
+    min-height: 100vh;
 }
 .login-page-wrapper{
-    background-color: #f3efcb;
     opacity: 0.8;
     padding: 100px 0;
 }
 
-.login-page{
+.login-page{    
     border-radius: 4px;
     margin: 0 auto;
     width: 600px;
     border: 1px solid black;
     background-color: #FCDF9B;
     border: 1px solid #ACAF9B;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 .login-page form{
     text-align: center;
@@ -48,8 +49,4 @@ body{
 }
 .login-page .login-page-header > div:hover{
     background-color: #b4864b; 
-}
-
-#doctor-login{
-    display: none;
 }

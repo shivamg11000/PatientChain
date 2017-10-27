@@ -4,8 +4,7 @@ $(document).ready(function(){
         autoplaySpeed: 3000,
         arrows: true,
         dots: true,
-        prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-        nextArrow: '<button type="button" class="slick-next">Next</button>'
+        mobileFirst: true
     });
 
     $("#patient").click(function(){
