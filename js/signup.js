@@ -7,4 +7,6 @@ $(function(){
         $("#patient-sign-up").css('display', 'block')
         $("#doctor-sign-up").css('display', 'none')
     })
+
+   
 })

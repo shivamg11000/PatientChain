@@ -52,7 +52,7 @@ header .branding{
 }
 .sign-up input{
     width: 60%;
-    padding: 4px;
+    padding: 4px 10px;
     border-radius: 5px;
     border: 1px solid rgb(0,201,151); 
     margin: 6px auto;
@@ -71,4 +71,19 @@ header .branding{
 }
 #doctor-sign-up{
     display: none;
+}
+
+@media only screen and (max-width:525px){
+    .sign-up-wrapper{
+        height: auto;
+        padding: 30px;
+    }
+    .sign-up{
+        width: 100%;
+        padding: 0;
+        background-color: #00D3A1;
+    }
+    .sign-up input{
+        width: 90%;
+    }
 }

@@ -1,0 +1,23 @@
+
+
+
+
+                                              THE PATIENT CHAIN
+About Project
+
+This is a Patient health record maintaining platform.
+
+This web application is beneficial for both doctor as well as Patient in the following  ways :
+
+--Your doctor and other health care providers maintain their own medical records about you.
+
+--And also Patients can also  maintain their own personal health records to record past appointments, test results, prescriptions, and more.
+
+--The patient chain is similar to the electronic health record that your doctor might keep, except that you store your most important health information and control who has access to it.
+
+--And in some cases, this tool also help patients and family caregivers share information among doctors and other family members so everyone is on the same page.
+
+Progress
+
+Home Page, Signup, loginpage completed
+database is connected to store users
