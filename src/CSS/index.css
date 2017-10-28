@@ -115,3 +115,11 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
+.form-inline{
+    margin-left: 800px;
+}
+#text{
+    width:200px;
+    margin: 10px;
+}
