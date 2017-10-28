@@ -123,3 +123,10 @@ footer{
     width:200px;
     margin: 10px;
 }
+
+/*  chat widget */
+#chat-icon{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
