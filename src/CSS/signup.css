@@ -1,0 +1,89 @@
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: #00D3A1;   
+}
+body *{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #2D2F30;
+    padding: 10px 8px;
+}
+
+header .branding{
+    color: white;
+    font-size: 20px;
+}
+
+.sign-up-wrapper{
+    height: 600px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00D3A1;
+    
+}
+.sign-up{
+    text-align: center;
+    padding: 40px 0;
+    width: 500px;
+    background-color: rgb(0,221,171);
+}
+.sign-up span{
+    color: #FF682B;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.sign-up span:hover{
+    color: #EF581B; 
+}
+.sign-up h1{
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sign-up label{
+    font-size: 18px;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sign-up input{
+    width: 60%;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0,201,151); 
+    margin: 6px auto;
+    
+}
+.sign-up input[type='submit']{
+    padding: 3px 5px;
+    font-size: 20px;
+    margin: 10px 0;
+    background-color: #f37340;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.sign-up input[type='submit']:hover{
+    background-color: #e36330;
+}
+#doctor-sign-up{
+    display: none;
+}
+
+@media only screen and (max-width:525px){
+    .sign-up-wrapper{
+        height: auto;
+        padding: 30px;
+    }
+    .sign-up{
+        width: 100%;
+        padding: 0;
+        background-color: #00D3A1;
+    }
+    .sign-up input{
+        width: 90%;
+    }
+}

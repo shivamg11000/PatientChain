@@ -1,7 +1,10 @@
 $(document).ready(function(){
     $('.image-slider').slick({
         autoplay: true,
-        autoplaySpeed: 2500
+        autoplaySpeed: 3000,
+        arrows: true,
+        dots: true,
+        mobileFirst: true
     });
 
     $("#patient").click(function(){
