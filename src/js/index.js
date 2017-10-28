@@ -25,6 +25,21 @@ $(document).ready(function(){
     })
 
 
+    // navbar
+    const timeTakenToScroll = 750 
+    
+    
+    $("#login-btn").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".login-page-wrapper").offset().top
+        }, timeTakenToScroll)
+    })
+
+    $("#about-us-btn").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".about-us").offset().top
+        }, timeTakenToScroll)
+    })
 
   });
 

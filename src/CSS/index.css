@@ -26,7 +26,7 @@ body{
 }
 
 .login-page-wrapper{
-    background-color: #FAFAFA;
+    background-color: #F0F0F0;
     padding: 100px 0;
 }
 
@@ -51,7 +51,7 @@ body{
     border-radius: 4px;
     width: 60%;
     border: 1px solid #E5E5E5;
-    background-color: #FAFAFA;
+    background-color: #F0F0F0;
 }
 .login-page form input[type="submit"]{
     padding: 2px 4px;
@@ -79,4 +79,39 @@ body{
 }
 #doctor-login{
     display: none;
+}
+
+/* About US */
+.about-us{
+    padding: 75px 0;
+    background-color: #700D8B;
+}
+.about-us h2{
+    text-align: center;
+    color: white;
+}
+.about-us .icon{
+    width: 70px;
+    margin: 30px auto;
+}
+.about-us .icon img{
+    width: 100%;
+}
+.about-us{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.about-us p:before,.about-us p:after {
+    content: '"';
+}
+
+/* footer */
+footer{
+    color: white;
+    background-color: #2D2F30;
+    padding: 8px 20px;
+
+    display: flex;
+    justify-content: space-between;
 }
